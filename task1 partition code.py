@@ -56,7 +56,7 @@ def interpret_partition_type(ptype):
     return types.get(ptype, "Unknown / Other")
 
 if __name__ == "__main__":
-    # HARD-CODE THE PATH HERE
+  
     image_path = r"D:\CW Disk Image\CW Image.dd"
     
     read_partition_table(image_path)
