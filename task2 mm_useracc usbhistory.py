@@ -17,9 +17,9 @@ print(" FORENSIC REGISTRY ANALYZER")
 print("==============================\n")
 
 
-# ------------------------------------------
+
 # 1. INSTALLED APPLICATIONS (from SOFTWARE hive)
-# ------------------------------------------
+
 def get_installed_apps():
     print("\n[+] Installed Applications:")
     try:
@@ -85,9 +85,9 @@ def get_usb_history():
         print("  Error reading USBSTOR:", e)
 
 
-# ------------------------------------------
+
 # 4. COMMAND / RUN HISTORY (from NTUSER.DAT)
-# ------------------------------------------
+
 def get_run_history():
     print("\n[+] Run (Command) History:")
     try:
